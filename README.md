@@ -1,5 +1,11 @@
 # Beautiful Account Abstraction
 
+## Install Hardhat
+npm install --save-dev hardhat
+
+## Run local node
+npx hardhat node
+
 ## Deploy main factory
 npx hardhat run scripts/deploy_factory.js
 
