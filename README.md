@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Beautiful Account Abstraction
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Deploy main factory
+npx hardhat run scripts/deploy_factory.js
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
+## Deploy main contract to 0x77777740120c1d679c83c53407f3da8325677753
 npx hardhat run scripts/deploy.js
-```
+
