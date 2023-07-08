@@ -1,8 +1,19 @@
 {
   "devDependencies": {
+<<<<<<< HEAD
     "ethers": "^5.7.2"
   },
   "scripts": {
     "start": "node scripts/precalculate.js"
+=======
+    "@gnosis.pm/mock-contract": "^4.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^4.9.2",
+    "hardhat": "^2.16.1"
+  },
+  "dependencies": {
+    "ethers": "^5.4.5"
+>>>>>>> f62a177 (Up)
   }
 }
